@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
+  <persistence-unit name="eapli.base">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <class>eapli.framework.infrastructure.authz.domain.model.SystemUser</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.Role</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.RoleSet</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.RoleAssignment</class>
+    <class>eapli.base.clientusermanagement.domain.ClientUser</class>
+    <class>eapli.base.clientusermanagement.domain.SignupRequest</class>
+    <class>eapli.base.customermanagement.domain.Customer</class>
+    <class>eapli.base.productmanagement.domain.Category</class>
+    <class>eapli.base.productmanagement.domain.Product</class>
+    <class>eapli.base.itemorderedmanagement.domain.ItemOrdered</class>
+    <class>eapli.base.ordermanagement.domain.NewOrder</class>
+
+    <class>eapli.base.warehousemanagement.domain.Warehouse</class>
+    <class>eapli.base.warehousemanagement.domain.WAisle</class>
+    <class>eapli.base.warehousemanagement.domain.WRow</class>
+    <class>eapli.base.warehousemanagement.domain.Coordinates</class>
+    <class>eapli.base.warehousemanagement.domain.AGVDock</class>
+
+    <class>eapli.base.questionnairemanagement.domain.Questionnaire</class>
+
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://vsgate-s2.dei.isep.ipp.pt:10141/db"/>
+      <property name="javax.persistence.jdbc.user" value=""/>
+      <property name="javax.persistence.jdbc.password" value="fcXPDZ5tuxxe"/>
+      <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+    </properties>
+  </persistence-unit>
+</persistence>

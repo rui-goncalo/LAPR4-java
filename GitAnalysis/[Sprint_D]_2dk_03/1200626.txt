@@ -1,0 +1,854 @@
+commit ea73b8adfd99b96fb4368073593f1a8aad8b15ce
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:30:50 2022 +0100
+
+    US3501: Analysis: Updated ProcessoEngenhariaFuncionalidade.md
+
+M	docs/Sprint D/US3501/ProcessoEngenhariaFuncionalidade.md
+
+commit f39f096b4f2940939a46952cc88b84c3770a22fa
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:30:18 2022 +0100
+
+    US3002: Implementation: Updated menu for sales manager be able to get the report
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+
+commit 8bea007bc6178be97cc778086fea44e235fff084
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:29:31 2022 +0100
+
+    US3002: Implementation: Updated repository files to support Answer
+
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryRepositoryFactory.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaRepositoryFactory.java
+
+commit 3f5f5fe87d249f7f7427e949419b3ed5dfbc5ea1
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:29:07 2022 +0100
+
+    US3002: Implementation: Updated EvalVisitor and .txt file
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Answer.txt
+M	base.core/src/main/java/eapli/base/questionnairemanagement/domain/EvalVisitor.java
+
+commit d491b5f34800674111a7145b5bb15d8fd64a3c6a
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:28:30 2022 +0100
+
+    US3002: Implementation: Added AnswerService.java
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/application/AnswerService.java
+
+commit 43a2f014d55270cae95378d8e46f205c24540038
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:28:19 2022 +0100
+
+    US3002: Implementation: Added AnswerController.java
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/application/AnswerController.java
+
+commit 47ae99c093464e935d9683b5e3ba585716122751
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:28:04 2022 +0100
+
+    US3002: Implementation: Added AnswerUI
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/questionnairemanagement/AnswerUI.java
+
+commit 88b385d2fa8f19b77c1f2049a90918d47e1155f3
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:27:26 2022 +0100
+
+    US3002: Implementation: Added list of Answers to Questionnaire.java
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/domain/Questionnaire.java
+
+commit 23a6d55ff56e7ae3bf79643ca90e9b51ca4df6e6
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:25:48 2022 +0100
+
+    Added presentation - LAPR4 - PL
+
+A	docs/Sprint D/LAPR4_2DK_03_Presentation.pptx
+
+commit 3f9578ab0749c50ff5db4c56d516e94096ee0822
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:25:14 2022 +0100
+
+    US9002: Implementation: Added presentation.
+
+A	docs/Sprint D/US9002/LAPR4 - SPOMS.pptx
+
+commit 9b0521598ddd037836a2a7a0d66fa69e8e89d691
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:24:48 2022 +0100
+
+    US3002: Implementation: Added ReportController to "read" the file
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/application/ReportController.java
+
+commit fbf490df01b355e87cf08cf974987f9586d4e063
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:24:20 2022 +0100
+
+    US3002: Implementation: Added ReportUI to get the report for the questionnaire
+
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/questionnairemanagement/ReportUI.java
+
+commit be18b1d5e82e0d0c069ea76e46d32a03a6c00125
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:23:54 2022 +0100
+
+    US3002: Implementation: Updated repository files and created JPA and InMemory for Answer
+
+M	base.core/src/main/java/eapli/base/infrastructure/persistence/RepositoryFactory.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/GrammarAnswer.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/repositories/AnswerRepository.java
+A	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryAnswerRepository.java
+A	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAnswerRepository.java
+
+commit 543415b997c5cea323466054459a39ef1c7a51ae
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:23:10 2022 +0100
+
+    US3002: Implementation: Create EvalVisitorAnswer to the answer grammar
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/Answer.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/AnswerID.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/EvalVisitorAnswer.java
+
+commit d3603bdb3e9e9c0a824b566db9e98f448ccfb9f0
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:22:14 2022 +0100
+
+    US3002: Implementation: Added new grammar Answer.g4
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/Answer.g4
+
+commit 58ef8930ce9c207e001b9b8c97da3cf6a26ea5df
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:22:00 2022 +0100
+
+    US3002: Implementation: Added generated files ANTLR4 for the new grammar to check the answers
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/Answer.interp
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/Answer.tokens
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/AnswerBaseListener.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/AnswerBaseVisitor.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/AnswerLexer.interp
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/AnswerLexer.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/AnswerLexer.tokens
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/AnswerListener.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/AnswerParser.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4Answer/AnswerVisitor.java
+
+commit 39d757d2fba1c33c8c331e2fa3c17b653e677697
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 23:20:46 2022 +0100
+
+    US3002: Design: Added Sequence Diagram - SD
+
+A	docs/Sprint D/US3002/SD.svg
+A	docs/Sprint D/US3002/SD.vpp
+
+commit 6a0dcc971dff4d68f1509e5ecb3b9683b398f74b
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 15:34:48 2022 +0100
+
+    US3002: Analysis: Added ProcessoEngenhariaFuncionalidade.md
+
+A	docs/Sprint D/US3002/ProcessoEngenhariaFuncionalidade.md
+
+commit 0593cce762e082cc7fe2785005234c112979ece8
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 10:04:47 2022 +0100
+
+    US3501: Implementation: Added EvalVisitor working
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/EvalVisitor.java
+
+commit c686eaec8cc49effc3bb098374a31006902a6b6c
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 10:03:17 2022 +0100
+
+    US3501: Implementation: Updated pom.xml
+
+M	base.core/pom.xml
+
+commit 9b7e0adbea8cbeae58a051342fb54595bed1ede9
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 10:02:38 2022 +0100
+
+    US3501: Implementation: Updated questionnaire path in persistence.xml
+
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit d83ac4cf85e0e0987cc79da873d39bdfb96ae712
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 10:02:01 2022 +0100
+
+    US3501: Implementation: file where answers will be stored
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Answer.txt
+
+commit ce413ecc256fb926bbee77d4c5561f404108bd3f
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 10:01:36 2022 +0100
+
+    US3501: Implementation: Added method to AnswerService to find the path
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/application/AnswerService.java
+
+commit 674dca1723f7d1f6d27ddf05b4fa2cdf13248d59
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 10:01:16 2022 +0100
+
+    US3501: Implementation: Added method to AnswerController to remove questionnaire for customer's list after he answers it
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/application/AnswerController.java
+
+commit d309449cb114cf9ee336e2f2e194874e8d1180d2
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:59:51 2022 +0100
+
+    US3501: Implementation: Added AnswerUI to support the need to the customer to answer the questionnaire
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/questionnairemanagement/AnswerUI.java
+
+commit 2986883f60d797600ce26f695f50b56f827153dd
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:59:16 2022 +0100
+
+    US3501: Implementation: Deleted old evalVisitor
+
+D	base.core/src/main/java/eapli/base/antlr4/src/domain/EvalVisitor.java
+
+commit 74d6acb225d12264d9861649c58d4cd396497a3d
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:58:59 2022 +0100
+
+    US3501: Implementation: Updated grammar Questionnaire.g4
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire.g4
+
+commit 16c2a1e1d7eee97bbb106946e696f208a7c6ec7b
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:58:38 2022 +0100
+
+    US3501: Implementation: Updated QuestionnaireService to support DTOs
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/application/QuestionnaireService.java
+
+commit 1a89de7d28f70140ef43b09035cb5c7dd15f8551
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:58:15 2022 +0100
+
+    US3501: Implementation: Updated QuestionnaireController to support DTOs
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/application/QuestionnaireController.java
+
+commit 8ee3aac9d86972511c1d842318cc6e55cc7566c1
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:57:31 2022 +0100
+
+    US3501: Implementation: Updated Questionnaire2.txt
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire2.txt
+
+commit 34404d67055b619aa2af15ebffe2f6d56c53f8ca
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:57:23 2022 +0100
+
+    US3501: Implementation: Updated Questionnaire.java with Rules and list of Customers - jpa
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/domain/Questionnaire.java
+
+commit 3939db33a62b518d07a4072240e37a4293fef341
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:20:42 2022 +0100
+
+    US3501: Implementation: Updated QuestionnaireUI to support the rules when creating the questionnaire
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/questionnairemanagement/QuestionnaireUI.java
+
+commit 36aaef16306d3b8c6e336ddc918c8b89c75625a4
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:19:51 2022 +0100
+
+    US3501: Implementation: Added file to antlr4
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireVisitor.java
+
+commit fa319ef9ff2696bf47f93902a31e54d5034af076
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:18:36 2022 +0100
+
+    US3501: Implementation: Created RulesQuestionnaire to be able to define a "target audience" to the questionnaire
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/RulesQuestionnaire.java
+
+commit 081f66fa82e9e4309676aeb91a94af247e9b3fd2
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:17:18 2022 +0100
+
+    Updated Use Case Diagram - UCD
+
+M	docs/UCD.md
+M	docs/UCD.svg
+
+commit 33821422e95dc579630f24e7214c7c9f0c42741a
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:16:41 2022 +0100
+
+    US3501: Implementation: Added Grammar to be able to test if EvalVisitor is working
+
+R074	base.core/src/main/java/eapli/base/antlr4/src/domain/Grammar.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/Grammar.java
+
+commit 3e4cea845d20cfcb919edf19084eecc7032e5638
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:16:00 2022 +0100
+
+    US3501: Implementation: Generated automatic ANTLR4 files
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/Questionnaire.interp
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/Questionnaire.tokens
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireBaseListener.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireBaseVisitor.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.interp
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.tokens
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireListener.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireParser.java
+A	base.core/src/main/java/eapli/base/questionnairemanagement/dto/QuestionnaireDTO.java
+
+commit 2ca41d0fb7da3b800f589605a0756b673e5a8179
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:15:20 2022 +0100
+
+    US3501: Implementation: Deleted old and outdated ANTLR files
+
+A	base.core/gen/eapli/base/questionnairemanagement/Questionnaire.interp
+A	base.core/gen/eapli/base/questionnairemanagement/Questionnaire.tokens
+A	base.core/gen/eapli/base/questionnairemanagement/QuestionnaireBaseListener.java
+A	base.core/gen/eapli/base/questionnairemanagement/QuestionnaireBaseVisitor.java
+A	base.core/gen/eapli/base/questionnairemanagement/QuestionnaireLexer.interp
+A	base.core/gen/eapli/base/questionnairemanagement/QuestionnaireLexer.java
+A	base.core/gen/eapli/base/questionnairemanagement/QuestionnaireLexer.tokens
+A	base.core/gen/eapli/base/questionnairemanagement/QuestionnaireListener.java
+A	base.core/gen/eapli/base/questionnairemanagement/QuestionnaireParser.java
+A	base.core/gen/eapli/base/questionnairemanagement/QuestionnaireVisitor.java
+
+commit 30be6250b40b73fba9a0a19305da2ad33140e2a8
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 19 09:12:58 2022 +0100
+
+    US3501: Implementation: Deleted automatic generated ANTLR files because the grammar needed to be updated
+
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/Questionnaire.interp
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/Questionnaire.tokens
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireBaseListener.java
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireBaseVisitor.java
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.interp
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.java
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.tokens
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireListener.java
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireParser.java
+D	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireVisitor.java
+
+commit 7539d4f6c1e339fb2c70c24a1c44d37fa3ccc150
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sat Jun 18 19:45:55 2022 +0100
+
+    US3501: Implementation: Changed Customer files to be able to get the customer's age
+
+M	base.core/src/main/java/eapli/base/customermanagement/domain/BirthDateCustomer.java
+M	base.core/src/main/java/eapli/base/customermanagement/domain/Customer.java
+
+commit 15d6b78859d151ab9d12917eb47e17b07b48258c
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:55:06 2022 +0100
+
+    Updated files with the User Stories
+
+M	docs/1200626/ListaFuncionalidadesEstudante.md
+M	docs/Planeamento.md
+
+commit e9a86b9bd81d34456e4c9f554490023e44bc87de
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:52:34 2022 +0100
+
+    US3501: Analysis: Updated with some client clarifications
+
+M	docs/Sprint D/US3501/ProcessoEngenhariaFuncionalidade.md
+
+commit 0e87ccb33d72aba21df7c3aeab23566f9133962e
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:50:29 2022 +0100
+
+    US3501: Testing: Added some tests to Questionnaire.java class
+
+A	base.core/src/test/java/eapli/base/questionnairemanagement/domain/QuestionnaireTest.java
+
+commit 01272ae5f74108619e76c76d61e9805189b5a823
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:50:18 2022 +0100
+
+    US3501: Implementation: Updated Customer's menu to access the questionnaires to answer
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+
+commit fdf597929d98642b64ab38ef79c5050fd9f8097e
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:50:02 2022 +0100
+
+    US3501: Implementation: Added file to write the answers
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/Answer.txt
+
+commit 74fbefddcde4c92f5bc4ba58b4be02ca043b28d3
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:48:49 2022 +0100
+
+    US3501: Implementation: Added AnswerWriter.java to create and write the answers in a file
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/domain/AnswerWriter.java
+
+commit 1513cb832c01c80d1e1b7140bb0533c8f5c8a174
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:48:26 2022 +0100
+
+    US3501: Implementation: Added AnswerService.java
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/application/AnswerService.java
+
+commit 2ab2bc408fd41bb37fa13110935a88cacf647357
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:48:13 2022 +0100
+
+    US3501: Implementation: Added AnswerController.java
+
+A	base.core/src/main/java/eapli/base/questionnairemanagement/application/AnswerController.java
+
+commit ee75753e7663c9da9629a73d21ac3e6fd659cbb5
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:47:58 2022 +0100
+
+    US3501: Implementation: Added AnswerUI to allow Customer to answer the questionnaires
+
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/questionnairemanagement/AnswerUI.java
+
+commit 95a3aa68df5e3862f204139309dd333baa71e1e7
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:46:24 2022 +0100
+
+    US3501: Implementation: Updated InMemory Repository files for Questionnaire.java
+
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryQuestionnaireRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryRepositoryFactory.java
+
+commit 681295b41c70040ef108fdfbf3fc122fb88dd28d
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:46:11 2022 +0100
+
+    US3501: Implementation: Updated JPA Repository files for Questionnaire.java
+
+D	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JPAQuestionnaireRepository.java
+A	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaQuestionnaireRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaRepositoryFactory.java
+
+commit 5f9b63cca1d149030de8299273ebb29c44e16241
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:45:58 2022 +0100
+
+    US3501: Implementation: Updated Repository files for Questionnaire.java
+
+M	base.core/src/main/java/eapli/base/infrastructure/persistence/RepositoryFactory.java
+M	base.core/src/main/java/eapli/base/questionnairemanagement/repositories/QuestionnaireRepository.java
+
+commit d5c2426433fc364bebb5e8d3b1592d9847d478ca
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:45:12 2022 +0100
+
+    US3501: Implementation: Updated QuestionnaireUI.java
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/questionnairemanagement/QuestionnaireUI.java
+
+commit 376cb8f74b49bb2969ccefd87c0954a695ef1a39
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:44:36 2022 +0100
+
+    US3501: Added methods get() and sets() to Questionnaire.java
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/domain/Questionnaire.java
+
+commit 9b4e72ef2c9c6b952c1037df0de3b5593546de7e
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:44:00 2022 +0100
+
+    US3501: Added method toString() to PeriodQuestionnaire.java
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/domain/PeriodQuestionnaire.java
+
+commit a0a5c434f5ff29f672e645b66010885eeed5d7a9
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:43:41 2022 +0100
+
+    US3501: Added method toString() to AlphanumericCodeQuestionnaire.java
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/domain/AlphanumericCodeQuestionnaire.java
+
+commit 987bf47f469f8ed5f3d29935b4c4858fb444247d
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 20:39:20 2022 +0100
+
+    US3001: Updated Questionnaire grammar and respective questionnaires .txt
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire.g4
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire1.txt
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire2.txt
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire3.txt
+
+commit 34c4ae13642a3f6482ee75080029d8b489fed645
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Tue Jun 14 14:52:47 2022 +0100
+
+    US3001: Updated Questionnaire grammar and respective questionnaires
+
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire.g4
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire1.txt
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire2.txt
+M	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire3.txt
+
+commit 0d80566538fe484f03d00edcce5dec9a1435bc5e
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon Jun 13 19:36:25 2022 +0100
+
+    Update file's path to a new package
+
+R100	base.core/src/main/java/eapli/base/antlr4/Questionnaire.g4	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire.g4
+R100	base.core/src/main/java/eapli/base/antlr4/Questionnaire1.txt	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire1.txt
+R100	base.core/src/main/java/eapli/base/antlr4/Questionnaire2.txt	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire2.txt
+R100	base.core/src/main/java/eapli/base/antlr4/Questionnaire3.txt	base.core/src/main/java/eapli/base/questionnairemanagement/Questionnaire3.txt
+R094	base.core/src/main/java/eapli/base/antlr4/src/application/QuestionnaireController.java	base.core/src/main/java/eapli/base/questionnairemanagement/application/QuestionnaireController.java
+R100	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/Questionnaire.interp	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/Questionnaire.interp
+R100	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/Questionnaire.tokens	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/Questionnaire.tokens
+R099	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireBaseListener.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireBaseListener.java
+R098	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireBaseVisitor.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireBaseVisitor.java
+R100	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireLexer.interp	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.interp
+R099	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireLexer.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.java
+R100	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireLexer.tokens	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireLexer.tokens
+R099	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireListener.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireListener.java
+R099	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireParser.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireParser.java
+R098	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireVisitor.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/antlr4/QuestionnaireVisitor.java
+R085	base.core/src/main/java/eapli/base/antlr4/src/repositories/QuestionnaireRepository.java	base.core/src/main/java/eapli/base/questionnairemanagement/repositories/QuestionnaireRepository.java
+
+commit 0a6ee5dec0fb07ab06f9a2ea81f8bcfcd1a5c64f
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon Jun 13 18:40:50 2022 +0100
+
+    US3501: Design: Added Sequence Diagram - SD
+
+A	docs/Sprint D/US3501/SD.svg
+A	docs/Sprint D/US3501/SD.vpp
+
+commit df5987bc0dbe81ea81178409cccfa000310c0719
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon Jun 13 18:40:19 2022 +0100
+
+    US3501: Analysis: Added ProcessoEngenhariaFuncionalidade.md
+
+A	docs/Sprint D/US3501/ProcessoEngenhariaFuncionalidade.md
+
+commit d2fafb0cc578625ab3b38d005b8cf07b81049adc
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:55:07 2022 +0100
+
+    US3001: Implementation: Updated Repository files to save questionnaire
+
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryQuestionnaireRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JPAQuestionnaireRepository.java
+
+commit e952c4ee3ad6fb13fd3395aadf38683aa1b2123b
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:54:42 2022 +0100
+
+    US3001: Implementation: Updated Sales Manager Menu
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+
+commit 9df79762e78cfa549196e74b1e6e6e5f7b0d22c8
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:54:21 2022 +0100
+
+    US3001: Implementation: Updated Questionnaire files
+
+R094	base.core/src/main/java/eapli/base/antlr4/src/domain/AlphanumericCodeQuestionnaire.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/AlphanumericCodeQuestionnaire.java
+R089	base.core/src/main/java/eapli/base/antlr4/src/domain/PeriodQuestionnaire.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/PeriodQuestionnaire.java
+R091	base.core/src/main/java/eapli/base/antlr4/src/domain/Questionnaire.java	base.core/src/main/java/eapli/base/questionnairemanagement/domain/Questionnaire.java
+
+commit 24699a537a68afe24c6583732d30c02ca40ab24e
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:53:57 2022 +0100
+
+    US3001: Implementation: Updated QuestionnaireRepository
+
+M	base.core/src/main/java/eapli/base/antlr4/src/repositories/QuestionnaireRepository.java
+
+commit e790cda930868bfe507bafccbdcb87995291519d
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:53:34 2022 +0100
+
+    US3001: Implementation: Updated QuestionnaireController
+
+M	base.core/src/main/java/eapli/base/antlr4/src/application/QuestionnaireController.java
+
+commit 8f72da191e641109acbece88aaa960edcdc642f1
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:53:03 2022 +0100
+
+    US3001: Implementation: Updated QuestionnaireUI
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/questionnairemanagement/QuestionnaireUI.java
+
+commit e73a790bf34164b8679bac3fd15e8768bb050694
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:52:29 2022 +0100
+
+    US3001: Implementation: Updated ANTLR Generated files
+
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/Questionnaire.interp
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/Questionnaire.tokens
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireBaseListener.java
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireBaseVisitor.java
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireLexer.interp
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireLexer.java
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireLexer.tokens
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireListener.java
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireParser.java
+M	base.core/src/main/java/eapli/base/antlr4/src/domain/antlr4/QuestionnaireVisitor.java
+
+commit d746671927b7a23b7ac63047478d79c022c981cf
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:50:51 2022 +0100
+
+    US3001: Design: Updated System Sequence Diagram - SSD
+
+M	docs/Sprint C/US3001/SSD.svg
+M	docs/Sprint C/US3001/SSD.vpp
+
+commit 9c49bf1c813a0943f23c0061c57297b88c8ac6bd
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sun Jun 12 16:50:34 2022 +0100
+
+    US3001: Design: Updated Sequence Diagram - SD
+
+M	docs/Sprint C/US3001/SD.svg
+M	docs/Sprint C/US3001/SD.vpp
+
+commit 7f3228e01939a818565d19e4d7d7fe87aeed20fa
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Sat Jun 11 09:32:49 2022 +0100
+
+    US1006: Implementation: Updated Sequence Diagram - SD
+
+M	docs/Sprint D/US1006/SD.svg
+M	docs/Sprint D/US1006/SD.vpp
+
+commit 21f3b5ec0e41b8399d7854944ad8a91743c467cd
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 10 18:10:04 2022 +0100
+
+    US3001: Implementation: Added InMemory and JPAQuestionnaryRepository
+
+A	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryQuestionnaireRepository.java
+A	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JPAQuestionnaireRepository.java
+
+commit 6ce802d23ea6f5a132fe71956875f854300c1e45
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 10 18:09:37 2022 +0100
+
+    US3001: Implementation: Update repository files to support QuestionnaireRepository
+
+M	base.core/src/main/java/eapli/base/infrastructure/persistence/RepositoryFactory.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryRepositoryFactory.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaRepositoryFactory.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit b843a5f72608d7611864baede349b150ab0af8d8
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 10 18:08:52 2022 +0100
+
+    US3001: Implementation: Added QuestionnaireRepository
+
+A	base.core/src/main/java/eapli/base/antlr4/src/repositories/QuestionnaireRepository.java
+
+commit fb257a157fff0dc69c7ec0d517285f922ed4dda3
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 10 18:08:30 2022 +0100
+
+    US3001: Implementation: Updated with some changes QuestionnaireController
+
+M	base.core/src/main/java/eapli/base/antlr4/src/application/QuestionnaireController.java
+
+commit fba5b60f80141f982fd87001d1c52b910c0f6a78
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 10 18:08:14 2022 +0100
+
+    US3001: Implementation: Updated with some changes QuestionnaireUI
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/questionnairemanagement/QuestionnaireUI.java
+
+commit 593d55f2470d1afa2b004991d0936e72533753c8
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 10 18:07:31 2022 +0100
+
+    US3001: Implementation: Added value objects AlphanumericCodeQuestionnaire and PeriodQuestionnaire
+
+A	base.core/src/main/java/eapli/base/antlr4/src/domain/AlphanumericCodeQuestionnaire.java
+A	base.core/src/main/java/eapli/base/antlr4/src/domain/PeriodQuestionnaire.java
+
+commit 399c6270b47663505e30107f238d184c066211d0
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 10 18:06:40 2022 +0100
+
+    US3001: Implementation: Added Questionnaire.java
+
+A	base.core/src/main/java/eapli/base/antlr4/src/domain/Questionnaire.java
+
+commit 742c13e61a2b1a8d789d083a3766338ea188bcfc
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 3 12:24:54 2022 +0100
+
+    US1006: Desing: Updated System Sequence Diagram - SSD
+
+M	docs/Sprint D/US1006/SSD.svg
+
+commit d113c8389f44f5a2500a57948b7ebabd0fda38e7
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 3 12:24:36 2022 +0100
+
+    US1006: Desing: Updated Sequence Diagram - SD
+
+M	docs/Sprint D/US1006/SD.svg
+M	docs/Sprint D/US1006/SD.vpp
+
+commit c7aba4794f90aa2dced73495df8dc5f4a9884730
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Fri Jun 3 12:24:12 2022 +0100
+
+    US1006: Analysis: Updated ProcessoEngenhariaFuncionalidade.md
+
+M	docs/Sprint D/US1006/ProcessoEngenhariaFuncionalidade.md
+
+commit 30b56ed093bb0dfc38633c66a3e9f1a2b2402c12
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Thu Jun 2 09:37:03 2022 +0100
+
+    US3000: Implementation: Updated questionnaires and added one more.
+
+M	base.core/src/main/java/eapli/base/antlr4/Questionnaire1.txt
+M	base.core/src/main/java/eapli/base/antlr4/Questionnaire2.txt
+A	base.core/src/main/java/eapli/base/antlr4/Questionnaire3.txt
+
+commit 71eebf65b57fa58b9c0193dc78586bed43d3ad1e
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Thu Jun 2 09:36:26 2022 +0100
+
+    US3000: Implementation: Improvements in the grammar Questionnaire.
+
+M	base.core/src/main/java/eapli/base/antlr4/Questionnaire.g4
+
+commit fa0ae3c5519859d66333bca1e3e04ac24b2c90f2
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Wed Jun 1 19:20:39 2022 +0100
+
+    US2003: Implementation: Improvements in the code.
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/warehouse/AGVOrderUI.java
+
+commit 0ccc0e10e8e7561d2d94254091e88344a37926f1
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Wed Jun 1 19:18:24 2022 +0100
+
+    US2003: Design: Updated System Sequence Diagram due to an improvement in the code
+
+M	docs/Sprint C/US2003/SSD.svg
+M	docs/Sprint C/US2003/SSD.vpp
+
+commit 19f7f1f7815b51db02048dc43d1a90392a9b1c3b
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Wed Jun 1 19:17:59 2022 +0100
+
+    US2003: Design: Updated Sequence Diagram due to an improvement in the code
+
+M	docs/Sprint C/US2003/SD.svg
+M	docs/Sprint C/US2003/SD.vpp
+
+commit 537da708c481f9ae5f5967c6c515f30478efff30
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon May 30 16:06:34 2022 +0100
+
+    US1006: Implementation: Changes to the MainMenu to insert the sales clerk option
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+
+commit 5cccd9f02e7874204fe9a36ca222de97ef59a4ae
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon May 30 16:05:54 2022 +0100
+
+    US1006: Implementation: Add SalesClerkUpdateOrderUI
+
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/ordermanagement/SalesClerkUpdateOrderUI.java
+
+commit 4409d2942aa498622c9a65057962974965c9da25
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon May 30 16:05:23 2022 +0100
+
+    US1006: Updated Status BEING_DELIVERED
+
+M	base.core/src/main/java/eapli/base/ordermanagement/domain/Status.java
+
+commit 1f3b4f7973dbfb66a27b48b26adeda834b3a97cb
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon May 30 15:55:40 2022 +0100
+
+    US2004: Implementation: Added status to updateOrder() method and updated some code.
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/ordermanagement/WarehouseUpdateOrderUI.java
+M	base.core/src/main/java/eapli/base/ordermanagement/application/OrderController.java
+
+commit 779f0b989fe71c9c42e63e1a470bf6d9a1974a77
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon May 30 15:46:44 2022 +0100
+
+    US2004: Implementation: Updated menu and also added some improvements.
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+R061	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/ordermanagement/UpdateOrderUI.java	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/ordermanagement/WarehouseUpdateOrderUI.java
+
+commit f6c33d926794cf218c49e494d955e662a1267d03
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon May 30 13:24:46 2022 +0100
+
+    US1006: Design: Add System Sequence Diagram - SSD
+
+A	docs/Sprint D/US1006/SSD.svg
+A	docs/Sprint D/US1006/SSD.vpp
+
+commit 0f0fa5c089334aac3fa390b3d05003fa4b9e2470
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon May 30 13:24:30 2022 +0100
+
+    US1006: Design: Add Sequence Diagram - SD
+
+A	docs/Sprint D/US1006/SD.svg
+A	docs/Sprint D/US1006/SD.vpp
+
+commit 1d8d89d237dbd5b311da5023637ee112daba42f4
+Author: Tiago André Macedo Pinto <1200626@isep.ipp.pt>
+Date:   Mon May 30 12:35:06 2022 +0100
+
+    US1006: Analysis: Add ProcessoEngenhariaFuncionalidade.md
+
+A	docs/Sprint D/US1006/ProcessoEngenhariaFuncionalidade.md

@@ -1,0 +1,14 @@
+@startuml
+actor SalesClerk #orange
+
+SalesClerk --> FrontEnd: Enter Username
+FrontEnd --> System: Check Username
+System --> FrontEnd: Username is valid
+SalesClerk --> FrontEnd: Enter Password
+FrontEnd --> System: Check Password
+System --> FrontEnd: Password is valid
+SalesClerk --> FrontEnd: Starts registering a new Product
+FrontEnd --> System: Filled fields
+System --> FrontEnd: Regist a new Product
+FrontEnd --> SalesClerk: Shows a new Product
+@enduml

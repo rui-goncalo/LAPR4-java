@@ -1,0 +1,73 @@
+@startuml
+actor Customer #green
+    Customer --> CustomerAppUI
+    alt if  (option == 1 )
+       CustomerAppUI --> CustomerApp: run(message, job, custID)
+       CustomerApp --> SocketController: createSocketClient(ip, port)
+       SocketController --> SocketUtils: createSocketClient(ip, port)
+       SocketUtils --> SocketController: return SSLSocket
+       SocketController --> CustomerApp: return SSLSocket
+       CustomerApp --> ObjectInputStream: new ObjectInputStream(socket.getInputStream())
+       ObjectInputStream --> CustomerApp: return ObjectInputStream()
+       CustomerApp --> ObjectOutputStream: new ObjectInputStream(socket.getOutputStream())
+       ObjectOutputStream --> CustomerApp: return ObjectInputStream()
+       CustomerApp --> PacketController: sendPacket(job_login, msg, OutputStream)
+       PacketController --> PacketUtils: sendPacket(job_login, msg, OutputStream)
+       PacketUtils --> Packet: new Packet(version, code, data)
+       Packet --> PacketUtils: return Packet
+       PacketUtils --> PacketController : return Boolean
+       PacketController --> CustomerApp: return Boolean
+        loop while (true)
+            alt (if (packet.getCode() == job_check_status)
+                CustomerApp --> PacketController
+                PacketController --> PacketUtils
+                PacketUtils --> PacketController
+                PacketController --> CustomerApp
+            end alt
+            alt (if (packet.getCode() == job_add_order)
+                CustomerApp --> PacketController
+                PacketController --> PacketUtils
+                PacketUtils --> PacketController
+                PacketController --> CustomerApp
+            end alt
+            alt (if (packet.getCode() == job_add_order)
+                CustomerApp --> PacketController
+                PacketController --> PacketUtils
+                PacketUtils --> PacketController
+                PacketController --> CustomerApp
+            end alt
+        end loop
+   else if (option == 2)
+        CustomerAppUI --> CustomerApp: run(message, job, custID)
+        CustomerApp --> SocketController: createSocketClient(ip, port)
+        SocketController --> SocketUtils: createSocketClient(ip, port)
+        SocketUtils --> SocketController: return SSLSocket
+        SocketController --> CustomerApp: return SSLSocket
+        CustomerApp --> ObjectInputStream: new ObjectInputStream(socket.getInputStream())
+        ObjectInputStream --> CustomerApp: return ObjectInputStream()
+        CustomerApp --> ObjectOutputStream: new ObjectInputStream(socket.getOutputStream())
+        ObjectOutputStream --> CustomerApp: return ObjectInputStream()
+        CustomerApp --> PacketController: sendPacket(job_login, msg, OutputStream)
+        PacketController --> PacketUtils: sendPacket(job_login, msg, OutputStream)
+        PacketUtils --> Packet: new Packet(version, code, data)
+        Packet --> PacketUtils: return Packet
+        PacketUtils --> PacketController : return Boolean
+        PacketController --> CustomerApp: return Boolean
+         loop while (true)
+             alt (if (packet.getCode() == job_check_status)
+                 CustomerApp --> PacketController: receivePacket(ObjectInputStream)
+                 PacketController --> PacketUtils: receivePacket(ObjectInputStream)
+                 PacketUtils --> PacketController: return Packet
+                 PacketController --> CustomerApp: System.out.println(new String(packet.getData(), StandardCharsets.UTF_8));
+             end alt
+             alt (if (packet.getCode() == job_add_order)
+                 CustomerApp --> PacketController: receivePacket(ObjectInputStream)
+                 PacketController --> PacketUtils: receivePacket(ObjectInputStream)
+                 PacketUtils --> PacketController: return Packet
+                 PacketController --> CustomerApp: System.out.println(new String(packet.getData(), StandardCharsets.UTF_8));
+             end alt
+         end loop
+         CustomerApp --> CustomerAppUI: return Packet
+         CustomerAppUI --> Customer: return Packet
+  end
+ @enduml

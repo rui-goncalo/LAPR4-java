@@ -1,0 +1,13 @@
+@startuml
+actor SalesClerk #orange
+
+SalesClerk --> RegisterProductUI: Register a new Product Request
+RegisterProductUI --> RegisterProductController: register new product
+RegisterProductUI --> SalesClerk: Product Data Required
+RegisterProductUI --> RegisterProductController: registerProduct(name, short_description, extended_description, brand, reference, barcode, price, internal_code, weight)
+RegisterProductController --> PersistenceContext: repositories()
+PersistenceContext --> RepositoryFactory: create()
+RepositoryFactory --> ProductRepository: create()
+RegisterProductController --> Product: newProduct(name, short_description, extended_description, brand, reference, barcode, price, internal_code, weight)
+RegisterProductController --> ProductRepository: save(newProduct)
+@enduml

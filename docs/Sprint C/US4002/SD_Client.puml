@@ -1,0 +1,13 @@
+@startuml
+
+ ClientHandShake --> PacketUtils: PacketUtils.ReceivePacket(input)
+ alt if(packet.isEmpty() || packet != ACK || != args[1])
+ PacketUtils -> ClientHandShake: return false
+ else
+ end
+ ClientHandShake --> PacketUtils: !PacketUtils.SendEmptyPacket(ProtocolCode.TEST.getCodeKey())
+ PacketUtils --> ClientHandShake: return false
+ ClientHandShake --> PacketUtils: packet.getData()
+ PacketUtils --> ClientHandShake: return true
+
+ @enduml

@@ -1,0 +1,61 @@
+FUT22-01
+
+Title: Football Questionnaire.
+
+Welcome message: Hello. This questionnaire will take 1 minute.
+
+Section:
+1.
+Stitle: Basic information;
+Obligatoriness: Mandatory.
+
+Q1:
+What is your favorite club?
+Obligatoriness: Mandatory.
+Type: Single-choice.
+1. Benfica;
+2. Porto;
+3. Sporting;
+
+Q2:
+When was your club's last title?
+Obligatoriness: Mandatory.
+Type: Free-Text.
+
+Section:
+2.
+Stitle: Clube information;
+Description: Knowledge about your club;
+Obligatoriness: Mandatory.
+
+Q1:
+What were the last two titles of your club?
+Obligatoriness: Mandatory.
+Type: Multiple-choice.
+1. Liga Portuguesa;
+2. Taca de Portugal;
+3. Taca da Liga;
+4. Supertaca;
+5. Europa League;
+6. Champions League;
+7. Conference League;
+8. Supertaca Europeia;
+
+Q2:
+Are you a regular fan of this club?
+Obligatoriness: Optional.
+Type: Single-choice.
+1. No;
+2. Yes;
+
+Q3:
+Who is your favorite player in your club?
+Obligatoriness: Optional.
+Type: Free-Text.
+
+Q4:
+The biggest winner of the champions league is Real Madrid, how many have they won?
+Obligatoriness: Mandatory.
+Type: Free-Text.
+
+Final message: You have successfully completed the questionnaire.

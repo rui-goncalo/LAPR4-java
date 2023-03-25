@@ -1,0 +1,27 @@
+@startuml
+actor WarehouseManager #orange
+
+WarehouseManager -> FrontEnd: Select import option
+FrontEnd -> BackEnd: Import JSON file
+
+WarehouseManager -> FrontEnd: Select show Warehouse option
+FrontEnd -> BackEnd: Get Warehouses
+BackEnd -> WarehouseManager: Display Warehouses
+
+WarehouseManager -> FrontEnd: Select show WAisle option
+FrontEnd -> BackEnd: Get WAisles
+BackEnd -> WarehouseManager: Display WAisles
+
+WarehouseManager -> FrontEnd: Select show WRow option
+FrontEnd -> BackEnd: Get WRows
+BackEnd -> WarehouseManager: Display WRows
+
+WarehouseManager -> FrontEnd: Select show AGVDock option
+FrontEnd -> BackEnd: Get AGVDocks
+BackEnd -> WarehouseManager: Display AGVDocks
+
+WarehouseManager -> FrontEnd: Select show Coordinates option
+FrontEnd -> BackEnd: Get Coordinates
+BackEnd -> WarehouseManager: Display Coordinates
+
+@enduml

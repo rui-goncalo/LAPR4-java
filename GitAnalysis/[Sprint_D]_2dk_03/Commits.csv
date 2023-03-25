@@ -1,0 +1,244 @@
+4e80929,2022-06-19 23:44:25 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Create test for domain class Packet
+ea73b8a,2022-06-19 23:30:50 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Analysis: Updated ProcessoEngenhariaFuncionalidade.md
+f39f096,2022-06-19 23:30:18 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Updated menu for sales manager be able to get the report
+8bea007,2022-06-19 23:29:31 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Updated repository files to support Answer
+3f5f5fe,2022-06-19 23:29:07 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Updated EvalVisitor and .txt file
+d491b5f,2022-06-19 23:28:30 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Added AnswerService.java
+43a2f01,2022-06-19 23:28:19 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Added AnswerController.java
+47ae99c,2022-06-19 23:28:04 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Added AnswerUI
+88b385d,2022-06-19 23:27:26 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Added list of Answers to Questionnaire.java
+23a6d55,2022-06-19 23:25:48 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,Added presentation - LAPR4 - PL
+db4f0b3,2022-06-19 23:25:37 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003: Design: Added the TcpThread SD (vpp/png)
+bb261fa,2022-06-19 23:25:30 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1502: Design: Change the absolute path of the SSL/TLS keystore Server&Client Certificate
+d69468f,2022-06-19 23:25:22 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003: Design: Added the Server SD (vpp/png)
+3f9578a,2022-06-19 23:25:14 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US9002: Implementation: Added presentation.
+586d0c6,2022-06-19 23:25:02 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003: Design: Added the Client SD (vpp/png)
+9b05215,2022-06-19 23:24:48 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Added ReportController to "read" the file
+63d9c60,2022-06-19 23:24:23 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003: Design: Added the analysis .md
+fbf490d,2022-06-19 23:24:20 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Added ReportUI to get the report for the questionnaire
+be18b1d,2022-06-19 23:23:54 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Updated repository files and created JPA and InMemory for Answer
+543415b,2022-06-19 23:23:10 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Create EvalVisitorAnswer to the answer grammar
+4470153,2022-06-19 23:22:43 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1902: Implementation: Change the absolute path of the SSL/TLS keystore Server&Client Certificate
+63839b7,2022-06-19 23:22:27 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Reformatted project and removed unused imports
+d3603bd,2022-06-19 23:22:14 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Added new grammar Answer.g4
+58ef893,2022-06-19 23:22:00 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Implementation: Added generated files ANTLR4 for the new grammar to check the answers
+fa92041,2022-06-19 23:21:14 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Moved both AGVManager and AGVDigitalTwin to the domain package
+39d757d,2022-06-19 23:20:46 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Design: Added Sequence Diagram - SD
+3425ac1,2022-06-19 23:20:10 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Update the sendCurrentPosition() method on the AGVDigitalTwin to decrease the battery when the AGV moves
+4766910,2022-06-19 23:19:21 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Remade the run() method on the AGVDigitalTwin with the decreasing battery, pathfinding and the new tasks in mind
+4c260af,2022-06-19 23:18:21 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Updated the performSetup() method on the AGVDigitalTwin
+df163b3,2022-06-19 23:17:17 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Remade the updateState() method on the TCPThread to make use of the UI update
+33b2484,2022-06-19 23:17:17 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Remade the assignTask() method on the TCPThread to make use of the semaphores and the updated UI
+5ebb4ab,2022-06-19 23:15:21 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Remade the run() method on the TCPThread to answer the needs of the AGVDigitalTwin
+0c5a54f,2022-06-19 23:14:10 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Added semaphores to the AGVManager
+0784596,2022-06-19 22:52:41 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Updated the warehouse.json
+c23e1ad,2022-06-19 22:48:09 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Fixed a bug in the pathfinding algorithm
+7520a8f,2022-06-19 22:47:42 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Renamed DBController to DBUtilsController
+dde9d08,2022-06-19 22:47:06 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Removed unused ProtocolCodes
+8a750bc,2022-06-19 22:46:49 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Renamed SocketController to SocketUtilsController
+6db7ab3,2022-06-19 22:41:18 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Added PacketController to PacketUtils
+146f24b,2022-06-19 22:40:41 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Created a controller for the Packet class
+8b9226d,2022-06-19 22:39:48 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Created a controller for the Coordinates class
+8293d84,2022-06-19 22:39:27 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Created Constants class
+bd04367,2022-06-19 22:34:01 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Removed unused class Task
+6a0dcc9,2022-06-19 15:34:48 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3002: Analysis: Added ProcessoEngenhariaFuncionalidade.md
+1b297df,2022-06-19 15:32:24 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1903: Implementation: Change the absolute path of the SSL/TLS keystore Server&Client Certificate
+8290328,2022-06-19 15:32:02 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1903: Implementation: Change the absolute path of the SSL/TLS keystore Server Certificate
+ba0c9fa,2022-06-19 15:31:48 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1903: Implementation: Change the absolute path of the SSL/TLS keystore Client Certificate
+9d1350f,2022-06-19 15:31:09 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1903: Implementation: Some changes in pom  to add the SSL/TLS keystore Server Certificate
+56be94a,2022-06-19 15:30:45 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1903: Implementation: Added SSL/TLS keystore Server Certificate
+3dcf747,2022-06-19 15:30:20 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1903: Implementation: Added SSL/TLS keystore Client Certificate
+46ac33f,2022-06-19 14:20:26 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1502: Implementation: Added query to inser new Order and update ProtocolCodes
+5a274ed,2022-06-19 14:19:32 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1902: Implementation: Added String builder to "product" case that sends the packet with the values of products
+4c541b0,2022-06-19 14:17:45 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1902: Implementation: Delete Class and added as subClass in Menu
+ef49a01,2022-06-19 14:17:22 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1502: Implementation: Change Menu to implement this US
+3695376,2022-06-19 14:09:42 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1502: Implementation: Change type of return
+0593cce,2022-06-19 10:04:47 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added EvalVisitor working
+c686eae,2022-06-19 10:03:17 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated pom.xml
+9b7e0ad,2022-06-19 10:02:38 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated questionnaire path in persistence.xml
+d83ac4c,2022-06-19 10:02:01 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: file where answers will be stored
+ce413ec,2022-06-19 10:01:36 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added method to AnswerService to find the path
+674dca1,2022-06-19 10:01:16 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added method to AnswerController to remove questionnaire for customer's list after he answers it
+d309449,2022-06-19 09:59:51 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added AnswerUI to support the need to the customer to answer the questionnaire
+2986883,2022-06-19 09:59:16 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Deleted old evalVisitor
+74d6acb,2022-06-19 09:58:59 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated grammar Questionnaire.g4
+16c2a1e,2022-06-19 09:58:38 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated QuestionnaireService to support DTOs
+1a89de7,2022-06-19 09:58:15 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated QuestionnaireController to support DTOs
+8ee3aac,2022-06-19 09:57:31 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated Questionnaire2.txt
+34404d6,2022-06-19 09:57:23 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated Questionnaire.java with Rules and list of Customers - jpa
+ac6596b,2022-06-19 09:47:56 +0100,Rui GonÁalves,1191831@isep.ipp.pt,Bugs fixed in customer app variable
+c34cdf2,2022-06-19 09:38:58 +0100,Rui GonÁalves,1191831@isep.ipp.pt,Bugs fixed in pom.xml of Customer app
+3939db3,2022-06-19 09:20:42 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated QuestionnaireUI to support the rules when creating the questionnaire
+36aaef1,2022-06-19 09:19:51 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added file to antlr4
+fa319ef,2022-06-19 09:18:36 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Created RulesQuestionnaire to be able to define a "target audience" to the questionnaire
+081f66f,2022-06-19 09:17:18 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,Updated Use Case Diagram - UCD
+3382142,2022-06-19 09:16:41 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added Grammar to be able to test if EvalVisitor is working
+3e4cea8,2022-06-19 09:16:00 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Generated automatic ANTLR4 files
+2ca41d0,2022-06-19 09:15:20 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Deleted old and outdated ANTLR files
+30be625,2022-06-19 09:12:58 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Deleted automatic generated ANTLR files because the grammar needed to be updated
+1f3fc5d,2022-06-19 03:38:44 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1901 | 1902 Implementation: Update OrdersServer class
+53b4bc7,2022-06-19 03:38:18 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1901 | 1902 Implementation: Update OrdersServer class with a new query (getCustomerID)
+d096b53,2022-06-19 03:37:31 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1901 | 1902 Implementation: Added subclass to a menu class. Reason: Now we just need to apply the email once
+4a627e8,2022-06-18 23:17:34 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1901 | 1902 Implementation: Added a conditional If for specific packets in run() - Work done with Hugo Carvalho collaboration- 1210813
+d8282f9,2022-06-18 23:12:59 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1901 | 1902 Implementation: Using String Builder to build a string with a query result - Work done with Hugo Carvalho collaboration- 1210813
+1979e75,2022-06-18 23:10:00 +0100,Rui GonÁalves,1191831@isep.ipp.pt,Test bit bucket account
+0abdb24,2022-06-18 22:45:09 +0100,Rui GonÁalves,75436609+rui-goncalo@users.noreply.github.com,US 1901 | 1902 Implementation: Adding a new readInteger method and added a case for login and order status
+d86b511,2022-06-18 22:44:20 +0100,Rui GonÁalves,75436609+rui-goncalo@users.noreply.github.com,US 1901 | 1902 Implementation: Adding a table paramater to the execute query
+44e9975,2022-06-18 22:43:05 +0100,Rui GonÁalves,75436609+rui-goncalo@users.noreply.github.com,US 1901 | 1902 Implementation: Changed the logic of the while true in Customer App
+85ab3d2,2022-06-18 22:41:27 +0100,Rui GonÁalves,75436609+rui-goncalo@users.noreply.github.com,US 1901 | 1902 Implementation: Updated a Switch Case for send packet in Perform Setup
+7539d4f,2022-06-18 19:45:55 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Changed Customer files to be able to get the customer's age
+0241ac7,2022-06-18 03:53:26 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Upgraded the updateCoordinates() method to update the user interface with the coordinates received from the AGV Digital Twin
+063ed76,2022-06-18 03:48:54 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Updated the sendTaskUpdates() method to send the coordinates passed as a parameter
+a743a97,2022-06-18 03:48:23 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Updated the AGVDigitalTwin to use pathfinding
+356c23d,2022-06-18 03:46:14 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Created a constants class with the matrix of the warehouse
+d076b5f,2022-06-18 03:45:44 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Added Setters and an empty constructor to the Coordinates class
+dee6073,2022-06-18 03:45:05 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Fixed the pathfinding algorithm and cleaned-up the code a little
+7832fec,2022-06-17 19:21:17 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Updated updateCoordinates() method on subclass TcpThread to also update the User Interface
+72ddb85,2022-06-17 19:20:33 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Added subclass UserInterface to AGVManager to handle the UI aspects of the AGVManager
+c057918,2022-06-17 19:17:46 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Added methods isValid() and breadthFirstSearch() to calculate a path for the AGV to take towards its destination
+ed0bd75,2022-06-17 19:15:25 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Created class Pathfinding with subclass QueueItem
+08d75b3,2022-06-17 19:15:25 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Added base.core dependency to the agvmanager's module
+b22997a,2022-06-17 19:15:20 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Updated the toString() method on Coordinates
+494d265,2022-06-17 19:15:07 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Made it so T generic must extend Serializable in the Bytable interface
+c6df926,2022-06-17 19:15:01 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5100: Implementation: Added the JSON-Simple dependency to pom.xml of the agvmanager module
+2a26b81,2022-06-16 10:14:05 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1901 | 1902 Implementation: Some updates to Menu
+8fbc89f,2022-06-16 10:13:38 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1901 | 1902 Implementation: Added run method to Customer App class calling perform setup method
+9c9eb66,2022-06-16 10:11:49 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1901 | 1902 Implementation: Some updates of Orders Server's classes
+3eb75ff,2022-06-16 10:06:45 +0100,Rui GonÁalves,1191831@isep.ipp.pt,Bugs fixed in pom.xml
+d56d21a,2022-06-15 22:38:08 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Packet Utils for Orders Server
+20df207,2022-06-15 22:37:17 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Packet class implemented to customer App
+c95ba43,2022-06-15 22:36:53 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Packet class implemented
+9a2ad75,2022-06-15 22:36:18 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Packet Controller (send and receive Packet) for Customer App
+a4f5c84,2022-06-15 22:35:56 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Packet Controller (send and receive Packet) for orders Server
+d8e4b52,2022-06-15 22:35:27 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Packet class created
+ca5a04d,2022-06-15 22:34:24 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: OrdersServerApp class implemented
+77b7b37,2022-06-15 22:33:43 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Orders Server class implemented
+22adc06,2022-06-15 22:32:37 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Menu UI for Customer App
+d9cc39a,2022-06-15 22:31:28 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: DB controller implemented to create connection, execute and update queries
+2db6635,2022-06-15 22:30:47 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Customer App created with Perform Setup method
+be5a281,2022-06-15 22:30:04 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Bytable class implemented to read packets
+cdacdee,2022-06-15 22:26:39 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Main created to CustomerApp
+782a644,2022-06-15 22:26:08 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Main created to Order Server
+164c8e9,2022-06-15 22:25:21 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Some files updated included KeyStore from AGV Manager to my local path.
+a0e2905,2022-06-15 22:23:53 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 | 1902 Implementation: Protocol Codes (includes some codes of US 1902) - Order Server
+3adfb00,2022-06-15 22:23:03 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 Implementation: Socket Controller created for Customer Application (create Client and Server socket)
+7f4b2a6,2022-06-15 22:22:41 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 Implementation: Socket Controller created for OrderServers (create Client and Server socket)
+5a83eb1,2022-06-15 22:21:40 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 Implementation: ServerSocket Utils Created for Customer Application
+7628a81,2022-06-15 22:21:10 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US 1091 Implementation: ServerSocket Utils Created for OrdersServer
+15d6b78,2022-06-14 20:55:06 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,Updated files with the User Stories
+e9a86b9,2022-06-14 20:52:34 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Analysis: Updated with some client clarifications
+0e87ccb,2022-06-14 20:50:29 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Testing: Added some tests to Questionnaire.java class
+01272ae,2022-06-14 20:50:18 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated Customer's menu to access the questionnaires to answer
+fdf5979,2022-06-14 20:50:02 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added file to write the answers
+74fbefd,2022-06-14 20:48:49 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added AnswerWriter.java to create and write the answers in a file
+1513cb8,2022-06-14 20:48:26 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added AnswerService.java
+2ab2bc4,2022-06-14 20:48:13 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added AnswerController.java
+ee75753,2022-06-14 20:47:58 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Added AnswerUI to allow Customer to answer the questionnaires
+95a3aa6,2022-06-14 20:46:24 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated InMemory Repository files for Questionnaire.java
+681295b,2022-06-14 20:46:11 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated JPA Repository files for Questionnaire.java
+5f9b63c,2022-06-14 20:45:58 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated Repository files for Questionnaire.java
+d5c2426,2022-06-14 20:45:12 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Implementation: Updated QuestionnaireUI.java
+376cb8f,2022-06-14 20:44:36 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Added methods get() and sets() to Questionnaire.java
+9b4e72e,2022-06-14 20:44:00 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Added method toString() to PeriodQuestionnaire.java
+a0a5c43,2022-06-14 20:43:41 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Added method toString() to AlphanumericCodeQuestionnaire.java
+987bf47,2022-06-14 20:39:20 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Updated Questionnaire grammar and respective questionnaires .txt
+34c4ae1,2022-06-14 14:52:47 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Updated Questionnaire grammar and respective questionnaires
+48cf93b,2022-06-13 23:00:35 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Renamed a few methods, reformatted and optimized imports on the agvmanager project module
+2be7b82,2022-06-13 23:00:35 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Created a clientTrustStore.jks to store the certificates for the SSL connections on the AGVDigitalTwin
+3d00af5,2022-06-13 23:00:34 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Created a serverKeyStore.jks to store the certificates for the SSL connections on the AGVManager
+873c1fb,2022-06-13 22:46:02 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Remade the method performSetup() on AGVManager
+bca5c04,2022-06-13 22:45:53 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Removed unused methods and replaced logger usage with standard error output stream on AGVManager
+29fc03d,2022-06-13 22:45:53 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Replaced logger usage with standard error output stream on DBUtils
+6a5af74,2022-06-13 22:45:53 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Remade the method performSetup() on AGVDigitalTwin
+cf75488,2022-06-13 22:45:43 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Removed deprecated method clientHandshake() on AGVDigitalTwin
+cd6d0b0,2022-06-13 22:04:43 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Replaced logger usage with standard error output stream on PacketUtils
+eba4eed,2022-06-13 21:59:26 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Removed unused ProtocolCode and added a new one. Reassigned numbers to all ProtocolCodes
+0d80566,2022-06-13 19:36:25 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,Update file's path to a new package
+0a6ee5d,2022-06-13 18:40:50 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Design: Added Sequence Diagram - SD
+df5987b,2022-06-13 18:40:19 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3501: Analysis: Added ProcessoEngenhariaFuncionalidade.md
+d2fafb0,2022-06-12 16:55:07 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated Repository files to save questionnaire
+e952c4e,2022-06-12 16:54:42 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated Sales Manager Menu
+9df7976,2022-06-12 16:54:21 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated Questionnaire files
+24699a5,2022-06-12 16:53:57 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated QuestionnaireRepository
+e790cda,2022-06-12 16:53:34 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated QuestionnaireController
+8f72da1,2022-06-12 16:53:03 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated QuestionnaireUI
+e73a790,2022-06-12 16:52:29 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated ANTLR Generated files
+d746671,2022-06-12 16:50:51 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Design: Updated System Sequence Diagram - SSD
+9c49bf1,2022-06-12 16:50:34 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Design: Updated Sequence Diagram - SD
+7f3228e,2022-06-11 09:32:49 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Implementation: Updated Sequence Diagram - SD
+49fdaf5,2022-06-11 03:33:16 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Replaced any use of Socket with SSLSocket on the AGVDigitalTwin
+004f5fd,2022-06-11 03:33:04 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Replaced any use of Socket with SSLSocket on the AGVManager
+537b9c0,2022-06-11 03:32:24 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Added documentation to DBUtils
+7376bbf,2022-06-11 03:31:59 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Implementation: Created a controller for SocketUtils
+57b07de,2022-06-11 03:31:41 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Implementation: Added the methods createSocketServer and createSocketClient to SocketUtils
+b218cd7,2022-06-11 03:31:04 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5003 | US-5004: Implementation: Created SocketUtils
+21f3b5e,2022-06-10 18:10:04 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Added InMemory and JPAQuestionnaryRepository
+6ce802d,2022-06-10 18:09:37 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Update repository files to support QuestionnaireRepository
+b843a5f,2022-06-10 18:08:52 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Added QuestionnaireRepository
+fb257a1,2022-06-10 18:08:30 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated with some changes QuestionnaireController
+fba5b60,2022-06-10 18:08:14 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Updated with some changes QuestionnaireUI
+593d55f,2022-06-10 18:07:31 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Added value objects AlphanumericCodeQuestionnaire and PeriodQuestionnaire
+399c627,2022-06-10 18:06:40 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US3001: Implementation: Added Questionnaire.java
+f9fefa9,2022-06-07 23:32:35 +0100,Paulo ProenÁa,prp@isep.ipp.pt,Repository Analysis
+4e0c11f,2022-06-03 13:24:36 +0100,Hugo Carvalho,1210813@isep.ipp.pt,Small fix
+742c13e,2022-06-03 12:24:54 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Desing: Updated System Sequence Diagram - SSD
+d113c83,2022-06-03 12:24:36 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Desing: Updated Sequence Diagram - SD
+c7aba47,2022-06-03 12:24:12 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Analysis: Updated ProcessoEngenhariaFuncionalidade.md
+7312871,2022-06-03 12:05:02 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Small bug-fix
+c8e42af,2022-06-03 09:11:18 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Created main to do some experimental queries about Product and ShopCart
+b6dafe6,2022-06-03 09:09:21 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Added public methods of OrdersServer in OrdersServerController
+5191e9a,2022-06-03 09:08:38 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Added a create connection, execute-update and execute methods to the OrdersServer
+1aef52e,2022-06-03 09:07:23 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Create module to OrdersServer and added new modules to pom
+7b300b8,2022-06-03 09:06:48 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Create module to OrdersServer
+b2132b9,2022-06-03 09:06:14 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US1901 - Implementation: Create module to Customer App
+f106f0c,2022-06-03 03:18:59 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Some small fixes and reformatted module "agvmanager"
+2c34906,2022-06-03 03:02:46 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Added an empty constructor to class Task
+5bc0f76,2022-06-03 03:02:23 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Renamed Client to AGVDigitalTwin
+77c5150,2022-06-03 03:00:52 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Renamed BaseServer to Server
+6af4dda,2022-06-03 03:00:40 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Renamed BaseClient to Client
+587ccdf,2022-06-02 15:52:48 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Changes to Client class so that it uses the controllers for the Utils
+914b3bb,2022-06-02 15:51:19 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Changed the return type from void to boolean on the method executeQuery from DBUtils class
+d2d768d,2022-06-02 15:50:18 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed methods sendEmptyPacket, sendDelayedPacket and sleep from PacketUtils
+d95151a,2022-06-02 15:49:14 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created PacketController
+000a984,2022-06-02 15:49:02 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created DBController
+d18ea33,2022-06-02 15:48:09 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed methods getObject() and getBytes() from Coordinates and added the interface Bytable
+a810e4e,2022-06-02 15:47:56 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed methods getObject() and getBytes() from Task and added the interface Bytable
+ee7cea8,2022-06-02 15:45:01 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed Server class
+a2cf434,2022-06-02 15:43:27 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created UtilsController
+21afc6f,2022-06-02 15:40:09 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Added to class interface Bytable a method the covert an array of bytes back into an object
+ff3b3cf,2022-06-02 15:39:28 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class interface Bytable with the method the covert an object into an array of bytes
+c8730ab,2022-06-02 15:37:13 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class BaseServer with the main method for the AGV Manager
+580fe8d,2022-06-02 15:36:56 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class BaseClient with the main method for the AGV Digital Twins
+b7e2fd4,2022-06-02 15:34:42 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to update the state of AGV Digital Twins
+b8835d2,2022-06-02 15:34:18 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to update the AGV Digital Twins position
+74bd0a7,2022-06-02 15:33:38 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to assigns tasks to the AGV Digital Twins
+7537190,2022-06-02 15:33:11 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to perform the handshake with a client
+d8ce0d4,2022-06-02 15:32:48 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a method on the subclass TcpThread of class AGVManager to perform the setup
+4ede11f,2022-06-02 15:32:08 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created subclass TcpThread of class AGVManager
+ab31478,2022-06-02 15:31:54 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Removed TcpThread class
+c518d11,2022-06-02 15:31:12 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created subclass DatabaseManager of class AGVManager
+13807b2,2022-06-02 15:30:52 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created subclass ConnectionManager of class AGVManager
+5501d99,2022-06-02 15:27:36 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Renamed class Server to AGVManager
+ddef0c1,2022-06-02 15:23:47 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class Utils
+61549d1,2022-06-02 15:21:03 +0100,Hugo Carvalho,1210813@isep.ipp.pt,US-5001 | US-5002: Implementation: Created a class AGVDigitalTwin
+30b56ed,2022-06-02 09:37:03 +0100,Tiago AndrÈ Macedo Pinto,1200626@isep.ipp.pt,US3000: Implementation: Updated questionnaires and added one more.
+71eebf6,2022-06-02 09:36:26 +0100,Tiago AndrÈ Macedo Pinto,1200626@isep.ipp.pt,US3000: Implementation: Improvements in the grammar Questionnaire.
+01b6a12,2022-06-02 00:41:24 +0100,Hugo Carvalho,1210813@isep.ipp.pt,Commit test fix
+fe34b6e,2022-06-02 00:40:26 +0100,Hugo Carvalho,1210813@isep.ipp.pt,Commit test
+fa0ae3c,2022-06-01 19:20:39 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US2003: Implementation: Improvements in the code.
+0ccc0e1,2022-06-01 19:18:24 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US2003: Design: Updated System Sequence Diagram due to an improvement in the code
+19f7f1f,2022-06-01 19:17:59 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US2003: Design: Updated Sequence Diagram due to an improvement in the code
+87e8281,2022-06-01 15:35:51 +0100,Rui GonÁalves,1191831@isep.ipp.pt,US4001 - Design - Fixed typos and added "apply patterns" to documentation
+254d256,2022-06-01 15:08:17 +0100,Hugo Carvalho,hhac@protonmail.com,Added the section "Applied patterns" to "ProcessoEngenhariaFuncionalidade.md"
+c71203c,2022-06-01 15:04:15 +0100,Hugo Carvalho,hhac@protonmail.com,Translated some portuguese words to english in the "ProcessoEngenhariaFuncionalidade.md" for US5001
+0215479,2022-06-01 15:00:20 +0100,Hugo Carvalho,hhac@protonmail.com,Fixed the port number the client connects to in the agvmanager module
+77b1d64,2022-05-31 03:03:41 +0100,Hugo Carvalho,hhac@protonmail.com,Fixed security issues for better stability on the agvmanager module
+537da70,2022-05-30 16:06:34 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Implementation: Changes to the MainMenu to insert the sales clerk option
+5cccd9f,2022-05-30 16:05:54 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Implementation: Add SalesClerkUpdateOrderUI
+4409d29,2022-05-30 16:05:23 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Updated Status BEING_DELIVERED
+1f3b4f7,2022-05-30 15:55:40 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US2004: Implementation: Added status to updateOrder() method and updated some code.
+779f0b9,2022-05-30 15:46:44 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US2004: Implementation: Updated menu and also added some improvements.
+f6c33d9,2022-05-30 13:24:46 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Design: Add System Sequence Diagram - SSD
+0f0fa5c,2022-05-30 13:24:30 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Design: Add Sequence Diagram - SD
+1d8d89d,2022-05-30 12:35:06 +0100,Tiago AndreÃÅ Macedo Pinto,1200626@isep.ipp.pt,US1006: Analysis: Add ProcessoEngenhariaFuncionalidade.md
+496b398,2022-05-30 00:44:26 +0100,Paulo ProenÁa,prp@isep.ipp.pt,Repository Analysis

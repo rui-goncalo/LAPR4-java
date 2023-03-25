@@ -1,0 +1,58 @@
+COSM22-01
+
+Title: Cosmetics Questionnaire.
+
+Welcome message: Hello, it takes approximately 10 minutes.
+Thank you very much for your time and support.
+
+Section:
+1.
+Stitle: Basic Information;
+Description: Customer directed questions and personal info;
+Obligatoriness: Mandatory.
+
+Q1:
+What's your customer ID?
+Your customer ID is a unique number that identifies you.
+Obligatoriness: Mandatory.
+Extra info is not necessary exist.
+Type: Free-Text.
+
+Q2:
+What's your age?
+Obligatoriness: Optional.
+Type: Free-Text.
+
+Q3:
+What's your gender?
+Obligatoriness: Optional.
+Type: Single-choice.
+1. Male;
+2. Female;
+3. Other;
+
+Section:
+2.
+Stitle: Product Information;
+Description: Opinion about the products;
+Obligatoriness: Mandatory.
+
+Q1:
+Are you a regular buyer of this type of products?
+Obligatoriness: Mandatory.
+Type: Single-choice.
+1. Yes;
+2. No;
+
+Q2:
+What made you choose this type of product?
+Obligatoriness: Mandatory.
+Type: Multiple-choice.
+1. Price;
+2. Brand;
+3. Discount;
+4. Friends;
+5. Family;
+
+Final message: You have successfully completed the questionnaire.
+Thank you for your help.

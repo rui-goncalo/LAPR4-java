@@ -1,0 +1,433 @@
+commit bb261fac829260deb0c77cd4f28d3352a6d86431
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 23:25:30 2022 +0100
+
+    US 1502: Design: Change the absolute path of the SSL/TLS keystore Server&Client Certificate
+
+A	docs/Sprint D/US1502/ProcessoEngenhariaFuncionalidade.md
+A	docs/Sprint D/US1502/SD_Client.png
+A	docs/Sprint D/US1502/SD_Client.puml
+A	docs/Sprint D/US1502/SD_Server.png
+A	docs/Sprint D/US1502/SD_Server.puml
+A	docs/Sprint D/US1902/SD_Server.puml
+
+commit 4470153d36dd4e028f8b41efe6c67ba2939c4d78
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 23:22:43 2022 +0100
+
+    US 1902: Implementation: Change the absolute path of the SSL/TLS keystore Server&Client Certificate
+
+A	docs/Sprint D/US1902/ProcessoEngenhariaFuncionalidade.md
+A	docs/Sprint D/US1902/SD_Client.png
+A	docs/Sprint D/US1902/SD_Client.puml
+A	docs/Sprint D/US1902/SD_Server.png
+
+commit 1b297df01980dbb83439de636a5f3987d7ace0fd
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 15:32:24 2022 +0100
+
+    US 1903: Implementation: Change the absolute path of the SSL/TLS keystore Server&Client Certificate
+
+A	ordersServer/src/main/resources/serverKeyStore.cer
+
+commit 82903289a8e364c88070987b97d2a52700386875
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 15:32:02 2022 +0100
+
+    US 1903: Implementation: Change the absolute path of the SSL/TLS keystore Server Certificate
+
+M	ordersServer/src/main/java/app/OrdersServerApp.java
+
+commit ba0c9fab30c67435099adf9e1cbfaacf51b8004f
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 15:31:48 2022 +0100
+
+    US 1903: Implementation: Change the absolute path of the SSL/TLS keystore Client Certificate
+
+M	customerApps/src/main/java/ui/Menu.java
+
+commit 9d1350f6b7bededf859c18e1dc5e2d8930ed3756
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 15:31:09 2022 +0100
+
+    US 1903: Implementation: Some changes in pom  to add the SSL/TLS keystore Server Certificate
+
+M	customerApps/pom.xml
+M	ordersServer/pom.xml
+
+commit 56be94a202cd575b7f93f17cc622713b8c20e0d0
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 15:30:45 2022 +0100
+
+    US 1903: Implementation: Added SSL/TLS keystore Server Certificate
+
+A	ordersServer/src/main/resources/serverKeyStore.jks
+
+commit 3dcf7471dfb394a48ff16a560b38fd61010c4f01
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 15:30:20 2022 +0100
+
+    US 1903: Implementation: Added SSL/TLS keystore Client Certificate
+
+A	ordersServer/src/main/resources/clientTrustStore.jks
+
+commit 46ac33f1683a1364466cfe7282a280af36405a22
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 14:20:26 2022 +0100
+
+    US 1502: Implementation: Added query to inser new Order and update ProtocolCodes
+
+M	customerApps/src/main/java/domain/ProtocolCodes.java
+M	ordersServer/src/main/java/app/OrdersServerApp.java
+M	ordersServer/src/main/java/domain/ProtocolCodes.java
+
+commit 5a274eddc3574a0b65908a6b584b1951a05542e5
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 14:19:32 2022 +0100
+
+    US 1902: Implementation: Added String builder to "product" case that sends the packet with the values of products
+
+M	ordersServer/src/main/java/domain/OrdersServer.java
+
+commit 4c541b0689f5abd7c816ad8ff6269ad50fe73b99
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 14:17:45 2022 +0100
+
+    US 1902: Implementation: Delete Class and added as subClass in Menu
+
+D	customerApps/src/main/java/app/CustomerApp.java
+
+commit ef49a011f2e25e7c371b0d317a2c152eb3a49f40
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 14:17:22 2022 +0100
+
+    US 1502: Implementation: Change Menu to implement this US
+
+M	customerApps/src/main/java/ui/Menu.java
+
+commit 3695376730e4d3a9d604d37126498f6c562d20b9
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 14:09:42 2022 +0100
+
+    US 1502: Implementation: Change type of return
+
+M	ordersServer/src/main/java/controller/DBController.java
+
+commit ac6596b39466c7d4e4d9c9c8af7c33de7d5d86de
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 09:47:56 2022 +0100
+
+    Bugs fixed in customer app variable
+
+M	customerApps/src/main/java/ui/Menu.java
+
+commit c34cdf210486f9d4f15d207cea392e238b67cd02
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 09:38:58 2022 +0100
+
+    Bugs fixed in pom.xml of Customer app
+
+M	customerApps/pom.xml
+
+commit 1f3fc5d138167fd26f2212efa9660945e7391203
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 03:38:44 2022 +0100
+
+    US 1901 | 1902 Implementation: Update OrdersServer class
+
+M	ordersServer/src/main/java/domain/OrdersServer.java
+
+commit 53b4bc7343547c9db86df85d1cfe54fa0d168edb
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 03:38:18 2022 +0100
+
+    US 1901 | 1902 Implementation: Update OrdersServer class with a new query (getCustomerID)
+
+M	ordersServer/src/main/java/app/OrdersServerApp.java
+
+commit d096b53a522056bf9a0c189e8ba0ecfd4bf8ff65
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sun Jun 19 03:37:31 2022 +0100
+
+    US 1901 | 1902 Implementation: Added subclass to a menu class. Reason: Now we just need to apply the email once
+
+M	customerApps/src/main/java/app/CustomerApp.java
+M	customerApps/src/main/java/ui/Menu.java
+
+commit 4a627e80c7e516fc23d5a3ddd0b505db26609d39
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sat Jun 18 23:17:34 2022 +0100
+
+    US 1901 | 1902 Implementation: Added a conditional If for specific packets in run() - Work done with Hugo Carvalho collaboration- 1210813
+
+M	ordersServer/src/main/java/app/OrdersServerApp.java
+
+commit d8282f9547c885c1e78e788285dff59971c8f772
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sat Jun 18 23:12:59 2022 +0100
+
+    US 1901 | 1902 Implementation: Using String Builder to build a string with a query result - Work done with Hugo Carvalho collaboration- 1210813
+
+M	ordersServer/src/main/java/domain/OrdersServer.java
+
+commit 1979e75a98aaecde9ea24d0e6903694da4f69ccd
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Sat Jun 18 23:10:00 2022 +0100
+
+    Test bit bucket account
+
+M	customerApps/src/main/java/app/CustomerApp.java
+
+commit 2a26b812005bfdec39041c5e8998992fa5c0dc1e
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Thu Jun 16 10:14:05 2022 +0100
+
+    US 1901 | 1902 Implementation: Some updates to Menu
+
+M	customerApps/src/main/java/ui/Menu.java
+
+commit 8fbc89fc633c3f53a821553fac0b0259f888928a
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Thu Jun 16 10:13:38 2022 +0100
+
+    US 1901 | 1902 Implementation: Added run method to Customer App class calling perform setup method
+
+M	customerApps/src/main/java/app/CustomerApp.java
+
+commit 9c9eb664b5898c73b468c40fef59ebb0e3869d09
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Thu Jun 16 10:11:49 2022 +0100
+
+    US 1901 | 1902 Implementation: Some updates of Orders Server's classes
+
+M	ordersServer/src/main/java/app/OrdersServerApp.java
+M	ordersServer/src/main/java/domain/OrdersServer.java
+M	ordersServer/src/main/java/domain/ProtocolCodes.java
+
+commit 3eb75fff7892304015cfc09678f1cbe32b0db318
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Thu Jun 16 10:06:45 2022 +0100
+
+    Bugs fixed in pom.xml
+
+M	pom.xml
+
+commit d56d21a614f3bc2a737db4a1fb90796b532584e1
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:38:08 2022 +0100
+
+    US 1091 | 1902 Implementation: Packet Utils for Orders Server
+
+A	ordersServer/src/main/java/utils/PacketUtils.java
+
+commit 20df207374c12b8ed589ee60cb7258911769984e
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:37:17 2022 +0100
+
+    US 1091 | 1902 Implementation: Packet class implemented to customer App
+
+A	customerApps/src/main/java/utils/PacketUtils.java
+
+commit c95ba43f0d0e9524dea746a915160a24503f45ed
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:36:53 2022 +0100
+
+    US 1091 | 1902 Implementation: Packet class implemented
+
+A	ordersServer/src/main/java/domain/Packet.java
+
+commit 9a2ad758941a4aa99aa86c05314cc2f9f5ebcc27
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:36:18 2022 +0100
+
+    US 1091 | 1902 Implementation: Packet Controller (send and receive Packet) for Customer App
+
+A	customerApps/src/main/java/controller/PacketController.java
+
+commit a4f5c84dcfbc8a7193290452ecdb0f100bedcad6
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:35:56 2022 +0100
+
+    US 1091 | 1902 Implementation: Packet Controller (send and receive Packet) for orders Server
+
+A	ordersServer/src/main/java/controller/PacketController.java
+
+commit d8e4b52a1be33496f084ba4da0da8684b9fe3833
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:35:27 2022 +0100
+
+    US 1091 | 1902 Implementation: Packet class created
+
+A	customerApps/src/main/java/domain/Packet.java
+
+commit ca5a04dbc0705ff3a3d4503f18cf7670be034740
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:34:24 2022 +0100
+
+    US 1091 | 1902 Implementation: OrdersServerApp class implemented
+
+A	ordersServer/src/main/java/app/OrdersServerApp.java
+
+commit 77b7b37daf145b383582db43ab6d92a0c84d1c0b
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:33:43 2022 +0100
+
+    US 1091 | 1902 Implementation: Orders Server class implemented
+
+M	ordersServer/src/main/java/domain/OrdersServer.java
+
+commit 22adc066be8b07da1e60fb8253caab43883c2e76
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:32:37 2022 +0100
+
+    US 1091 | 1902 Implementation: Menu UI for Customer App
+
+A	customerApps/src/main/java/ui/Menu.java
+
+commit d9cc39ad415cb2a5bec6a07c58f438c200b8a2a0
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:31:28 2022 +0100
+
+    US 1091 | 1902 Implementation: DB controller implemented to create connection, execute and update queries
+
+R074	ordersServer/src/main/java/controller/OrdersServerController.java	ordersServer/src/main/java/controller/DBController.java
+
+commit 2db66353037ebcbffadc5260798c3d5c3f26ae16
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:30:47 2022 +0100
+
+    US 1091 | 1902 Implementation: Customer App created with Perform Setup method
+
+A	customerApps/src/main/java/app/CustomerApp.java
+
+commit be5a2812410d45ae00d85555f2187e80599fff08
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:30:04 2022 +0100
+
+    US 1091 | 1902 Implementation: Bytable class implemented to read packets
+
+A	customerApps/src/main/java/domain/Bytable.java
+
+commit cdacdee8e58572ee79caffe58b71bd3263e17b8c
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:26:39 2022 +0100
+
+    US 1091 | 1902 Implementation: Main created to CustomerApp
+
+A	customerApps/src/main/java/MainMenu.java
+
+commit 782a644c09ae6c1cfe1cd0f348474dfda7e99847
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:26:08 2022 +0100
+
+    US 1091 | 1902 Implementation: Main created to Order Server
+
+M	ordersServer/src/main/java/DBMain.java
+
+commit 164c8e9d0cc5a059b0200ea363c65d04b9ee4a2e
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:25:21 2022 +0100
+
+    US 1091 | 1902 Implementation: Some files updated included KeyStore from AGV Manager to my local path.
+
+M	agvmanager/src/main/java/AGVDigitalTwin.java
+M	agvmanager/src/main/java/AGVManager.java
+R068	customerApp/pom.xml	customerApps/pom.xml
+M	pom.xml
+
+commit a0e2905e6d2960328a33fc2ca29731727b6f90e4
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:23:53 2022 +0100
+
+    US 1091 | 1902 Implementation: Protocol Codes (includes some codes of US 1902) - Order Server
+
+A	customerApps/src/main/java/domain/ProtocolCodes.java
+A	ordersServer/src/main/java/domain/ProtocolCodes.java
+
+commit 3adfb00fc037437bcec863554493b05202b9246b
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:23:03 2022 +0100
+
+    US 1091 Implementation: Socket Controller created for Customer Application (create Client and Server socket)
+
+A	customerApps/src/main/java/controller/SocketController.java
+
+commit 7f4b2a6361f39ca7b0ff2c0fc607a82276411770
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:22:41 2022 +0100
+
+    US 1091 Implementation: Socket Controller created for OrderServers (create Client and Server socket)
+
+A	ordersServer/src/main/java/controller/SocketController.java
+
+commit 5a83eb1cf4cb1829daf55998dc1f7b9b0dd0cae3
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:21:40 2022 +0100
+
+    US 1091 Implementation: ServerSocket Utils Created for Customer Application
+
+A	customerApps/src/main/java/utils/SocketUtils.java
+
+commit 7628a81ba0da22e551f9653b23ab86007c7a2981
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 15 22:21:10 2022 +0100
+
+    US 1091 Implementation: ServerSocket Utils Created for OrdersServer
+
+A	ordersServer/src/main/java/utils/SocketUtils.java
+
+commit c8e42af8a8d30f992b21bebdc9c9bf2c71f8af95
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:11:18 2022 +0100
+
+    US1901 - Implementation: Created main to do some experimental queries about Product and ShopCart
+
+A	ordersServer/src/main/java/DBMain.java
+
+commit b6dafe68b968bec5a076d0856df583c5f57c9c98
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:09:21 2022 +0100
+
+    US1901 - Implementation: Added public methods of OrdersServer in OrdersServerController
+
+A	ordersServer/src/main/java/controller/OrdersServerController.java
+
+commit 5191e9a9395a388de85dc026b27bff6755d89e07
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:08:38 2022 +0100
+
+    US1901 - Implementation: Added a create connection, execute-update and execute methods to the OrdersServer
+
+A	ordersServer/src/main/java/domain/OrdersServer.java
+
+commit 1aef52e3c74896c89e255a22ca95d85f7a1914fc
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:07:23 2022 +0100
+
+    US1901 - Implementation: Create module to OrdersServer and added new modules to pom
+
+A	ordersServer/pom.xml
+
+commit 7b300b80e2efdbbc8ad2a41fc62ce4c30cbe26a8
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:06:48 2022 +0100
+
+    US1901 - Implementation: Create module to OrdersServer
+
+M	pom.xml
+
+commit b2132b94e5cc9af50fed4a144d854fcc870988e8
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Fri Jun 3 09:06:14 2022 +0100
+
+    US1901 - Implementation: Create module to Customer App
+
+A	customerApp/pom.xml
+
+commit 87e828193ecba7c21396da8ec79ed0dff81d5c89
+Author: Rui Gonçalves <1191831@isep.ipp.pt>
+Date:   Wed Jun 1 15:35:51 2022 +0100
+
+    US4001 - Design - Fixed typos and added "apply patterns" to documentation
+
+M	docs/Sprint C/US4001/ProcessoEngenhariaFuncionalidade.md

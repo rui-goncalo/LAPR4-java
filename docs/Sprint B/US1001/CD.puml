@@ -1,0 +1,22 @@
+@startuml
+
+package UI{
+class RegisterProductUI{
+}
+}
+
+package Controller{
+class RegisterProductController{
+}
+}
+
+package Domain <<Aggregate>>{
+Entity Product <<Entity>> <<Root>>{
+}
+}
+
+RegisterProductUI--> RegisterProductController
+RegisterProductController--> Product
+note right of Product : Fields mandatory: \n - Internal code \n - Short description \n - Extended description.
+
+@enduml

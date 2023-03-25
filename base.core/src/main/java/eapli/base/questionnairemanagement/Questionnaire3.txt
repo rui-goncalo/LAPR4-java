@@ -1,0 +1,72 @@
+SCMED22-01
+
+Title: Social media Questionnaire.
+
+Welcome message: Hello, it takes approximately 5 minutes.
+
+Section:
+1.
+Stitle: Dados Pessoais;
+Description: Utilizador deve prencher os seus dados pessoais.
+Obligatoriness: Optional.
+
+Q1:
+Qual o seu nome?
+Deve inserir apenas o primeiro e ultimo nome.
+Obligatoriness: Optional.
+Type: Free-Text;
+
+Q2:
+Qual o seu genero?
+Obligatoriness: Optional.
+Type: Single-choice;
+1. Masculino;
+2. Feminino;
+3. Outro;
+
+Q3:
+Qual a sua faixa etaria?
+Obligatoriness: Mandatory.
+Type: Single-choice.
+1. 18-29;
+2. 30-49;
+3. 50+;
+
+Q4:
+Curso que frequentas?
+Obligatoriness: Mandatory.
+Type: Free-Text.
+
+Section:
+2.
+Stitle: Modo de utilizacao das Redes Sociais.
+Description: Vao ser feitas perguntas para entendermos o modo como utliza as suas redes sociais.
+Obligatoriness: Mandatory.
+
+Q1:
+Porque utilizas as redes socias?
+Obligatoriness: Mandatory.
+Type: Free-Text.
+
+Q2:
+Quanto tempo, por dia, passas nas redes sociais?
+Obligatoriness: Mandatory.
+Type: Single-choice.
+1. 1h-;
+2. 1h-3h;
+3. 3h-5h;
+4. 5h+;
+
+Q3:
+Qual a app que mais utilizas?
+Obligatoriness: Mandatory.
+Type: Multiple-choice.
+1. Instagram;
+2. Facebook;
+3. Twiter;
+4. SnapChat;
+5. TikTok;
+6. Youtube;
+7. Outros;
+
+Final message: Thanks for your time.
